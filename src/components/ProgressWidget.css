@@ -1,0 +1,23 @@
+.progress-widget {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .progress-widget h2 {
+      margin: 0 0 1.5rem 0;
+      color: #2d3748;
+    }
+
+    .progress-chart {
+      height: 200px;
+      margin-bottom: 1.5rem;
+    }
+
+    .progress-info {
+      display: flex;
+      justify-content: space-around;
+      font-size: 0.9rem;
+      color: #718096;
+    }

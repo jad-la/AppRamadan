@@ -1,0 +1,73 @@
+.recitation-widget {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .recitation-widget h2 {
+      margin: 0 0 1.5rem 0;
+      color: #2d3748;
+    }
+
+    .recitation-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .recitation-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem;
+      border-radius: 6px;
+      background-color: #f8f9fa;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .recitation-item:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .recitation-item.completed {
+      background-color: #ebf8ff;
+    }
+
+    .recitation-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .recitation-surah {
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+
+    .recitation-verses {
+      font-size: 0.8rem;
+      color: #718096;
+    }
+
+    .recitation-check {
+      color: #3182ce;
+      font-size: 1.1rem;
+    }
+
+    .complete-button {
+      width: 100%;
+      background-color: #805ad5;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .complete-button:hover {
+      background-color: #6b46c1;
+    }

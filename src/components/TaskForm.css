@@ -1,0 +1,106 @@
+.task-form {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .task-form h2 {
+      margin: 0 0 1.5rem 0;
+      color: #2d3748;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #e2e8f0;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    .form-group textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .priority-options {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .priority-btn {
+      flex: 1;
+      padding: 0.5rem;
+      border: 1px solid #e2e8f0;
+      border-radius: 4px;
+      background-color: #f8f9fa;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .priority-btn.active {
+      background-color: #805ad5;
+      color: white;
+      border-color: #805ad5;
+    }
+
+    .priority-btn[data-priority="high"].active {
+      background-color: #f56565;
+      border-color: #f56565;
+    }
+
+    .priority-btn[data-priority="medium"].active {
+      background-color: #ed8936;
+      border-color: #ed8936;
+    }
+
+    .form-actions {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: flex-end;
+    }
+
+    .submit-btn {
+      background-color: #805ad5;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .submit-btn:disabled {
+      background-color: #e2e8f0;
+      cursor: not-allowed;
+    }
+
+    .submit-btn:hover:not(:disabled) {
+      background-color: #6b46c1;
+    }
+
+    .cancel-btn {
+      background-color: #e2e8f0;
+      color: #4a5568;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .cancel-btn:hover {
+      background-color: #cbd5e0;
+    }
